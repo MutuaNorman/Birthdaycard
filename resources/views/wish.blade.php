@@ -3,7 +3,7 @@
 @section("content")
     <section class="wish">
         <div class="head">
-            <h2>Write To Naaman Something...</h2>
+            <h2>Write Something To Birthday-Boy..</h2>
         </div>
         <div class="form-cont">
             <form action="/wish" method="POST">

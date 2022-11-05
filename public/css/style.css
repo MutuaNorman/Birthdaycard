@@ -224,6 +224,7 @@ styling the wishes page */
     color:var(--black);
     letter-spacing: 2px;
     margin-bottom: 20px;
+    text-align: center;
 }
 .form-cont{
     width: 100%;
@@ -480,6 +481,9 @@ styling the wishes page */
         width: 100px;
     }
     #headmsg{
+        font-size: 17px;
+    }
+    .head h2{
         font-size: 17px;
     }
 }
