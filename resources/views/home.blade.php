@@ -9,7 +9,7 @@
         <div class="cards">
         </div>
         <div class="audio">
-            <audio controls loop>
+            <audio controls autoplay loop>
                 <source src="{{ url('/audio/go.mp3') }}" type="audio/mpeg">
             </audio>
         </div>

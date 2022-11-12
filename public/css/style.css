@@ -327,6 +327,7 @@ styling the wishes page */
     width: 100%;
     min-height: 100vh;
     background-color: var(--black);
+    position: relative;
 }
 #headmsg{
     color: var(--white);
@@ -402,6 +403,16 @@ styling the wishes page */
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+}
+.june{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 30px var(--orange);
 }
 .follow a{
     background-color: var(--white);

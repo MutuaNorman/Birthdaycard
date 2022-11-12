@@ -2,22 +2,22 @@
 @section("title", "Happy Birthday")
 @section("content")
 <section class="messages">
-    <div class="head">
+    {{-- <div class="head">
         <h2 id="headmsg">---What Friends are Saying---</h2>
     </div>
     <div class="chats">
         @foreach ( $data as $item)
         <div class="chat">
             <div class="div1">
-                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-user"></i> --}}
                 {{-- <img src="{{ url('/images/img3.jpg') }}" alt="User Image"> --}}
-            </div>
+            {{-- </div>
             <div class="div2">
 
                     <h2>{{ $item->name }}</h2>
-                    <p class="desc">{{ $item->message }}</p>
+                    <p class="desc">{{ $item->message }}</p> --}}
                     {{-- <p><i>{{ $item->email }}</i></p> --}}
-                    <p class="time"><i>{{ $item->created_at->diffForHumans() }}</i></p>
+                    {{-- <p class="time"><i>{{ $item->created_at->diffForHumans() }}</i></p>
 
                 <div class="follow">
                     <a href="">Follow</a>
@@ -27,7 +27,8 @@
         </div>
         @endforeach
 
-    </div>
+    </div> --}}
+    <h1 class="june">Thank you for your wish!!</h1>
     <div class="goto_wish">
         <a href="{{ route('wish') }}">Send Message</a>
     </div>

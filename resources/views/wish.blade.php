@@ -6,7 +6,7 @@
             <h2>Write Something To Birthday-Boy..</h2>
         </div>
         <div class="form-cont">
-            <form action="/wish" method="POST">
+            <form action="/wish" method="POST" autocomplete="off">
                 @csrf
                 @if (Session::has("success"))
                     <p class="success">
